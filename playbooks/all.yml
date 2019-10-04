@@ -2,5 +2,6 @@
   sudo: yes
   roles:
     - { role: bahmni-endtb-batch }
+    - config_dirs
   tags:
     - bahmni-emr-customization
